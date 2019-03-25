@@ -1,0 +1,225 @@
+.OrderDetailCard {
+    background-color: #F7F7F7;
+    height: 100%;
+}
+
+.OrderDetailCard > .CardHeader {
+    font-size: 14px;
+    text-transform: capitalize;
+    height: 81px;
+    line-height: 81px;
+    padding-left: 20px;
+    border-bottom: 1px solid #F5F6F7;
+    position: relative;
+    background-color: white;
+}
+
+.OrderDetailCard > .CardHeader > .orderNum {
+    color: #8A8F9C;
+}
+
+.OrderDetailCard > .CardHeader > .menu {
+    display: inline-block;
+    position: absolute;
+    height: 16px;
+    right: 10px;
+    top: 0px;
+    margin: auto;
+    color: #8A8F9C;
+}
+
+.OrderDetailCard > .CardContent {
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+
+.Alert {
+    height: 59px;
+    /* width: 446px; */
+    background-color: #7769FF;
+    line-height: 59px;
+    border-radius: 5px;
+}
+
+.Alert > p.message {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color:#FFFFFF;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Alert > div.btnGroup {
+    display: inline-block;
+    position: relative;
+    right: 10px;
+}
+
+.alignToRight {
+    float: right;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.btn {
+    width: 78px;
+    height: 32px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+.btn.confirm {
+    color: #41AF6F;
+    font-size: 14px;
+}
+
+.btn.reject {
+    color: #E95757;
+    font-size: 14px;
+}
+
+.pane {
+    /* box-shadow: 0px 3px 3px #000000; */
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.pane-side {
+    position: relative;
+}
+
+.pane-side .column-pane-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.pane-side .column-side-wrapper {
+    float: left;
+    width: 100%;
+}
+
+.pane-side .side {
+    float: left;
+    width: 100px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.pane-side .pane {
+    /* float: left; */
+    overflow: hidden;
+}
+
+.pane > .pane-header {
+    height: 61px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 61px;
+}
+
+.pane > .pane-header > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pane > .pane-content {
+    background-color: #F9F9F9;
+    padding: 20px;
+}
+
+.email > .tag {
+    text-align: center;
+    line-height: 38px;
+    color: #FFFFFF;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #6395EC;
+    float: left;
+}
+
+.email > .content {
+    overflow: hidden;
+    padding-left: 14px;
+    font-size: 14px;
+    color: #8A8F9C;
+}
+
+.email > .content > p:not(.title) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.form {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.form-group {
+    /* border: 1px solid #8A8F9C; */
+}
+
+.form-group > .form-item {
+    /* display: inline-block; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.form-group > .form-item:first-child {
+    /* overflow: hidden; */
+    float: right;
+}
+
+.form-group > .form-item:last-child {
+    overflow: hidden;
+}
+
+.form-item > input{
+    width: 100%;
+    display: block;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form-item > input[type=submit] {
+    height: 64px;
+    background: #7769FF;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: capitalize;
+}
+
+.form-item > input[type=search] {
+    height: 64px;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: capitalize;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: gray;
+    /* box-shadow: 1px 0px 3px #000000; */
+}
+
+.form-item > input[type=search]::before {
+    /* content: url('./cloud-upload.png'); */
+    content: ' ';
+    width: 20px;
+    height: 14px;
+    background: red;
+    position: absolute;
+    display: block;
+}

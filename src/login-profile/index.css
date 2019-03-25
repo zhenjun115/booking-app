@@ -1,0 +1,43 @@
+.LoginProfile {
+    overflow: hidden;
+    margin-left: 21px;
+    margin-top: 45px;
+    margin-bottom: 33px;
+}
+
+.LoginProfile > div {
+    float: left;
+}
+
+.LoginProfile > div:last-child::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.LoginProfile > div.imgDesc {
+    width: 48px;
+    height: 48px;
+    background: url('./rolands-unsplash.jpg');
+    background-position: center;
+    border-radius: 50%;
+}
+
+.LoginProfile > div.textDesc {
+    margin-left: 10px;
+}
+
+.LoginProfile > div.textDesc > .userName {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+
+.LoginProfile > div.textDesc > .userRole {
+    font-size: 14px;
+    color: #8A8F9C;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

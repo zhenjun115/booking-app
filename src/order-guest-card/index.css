@@ -1,0 +1,100 @@
+.OrderGuestCard > .CardHeader {
+    font-size: 14px;
+    text-transform: capitalize;
+    height: 81px;
+    line-height: 81px;
+    padding-left: 20px;
+    position: relative;
+    border-bottom: 1px solid #F5F6F7;
+}
+
+.OrderGuestCard > .CardHeader > .icon {
+    background-color: #8A8F9C;
+    width: 18px;
+    height: 12px;
+    margin-right: 14px;
+}
+
+.OrderGuestCard > .CardHeader > .count {
+    color: #8A8F9C;
+}
+
+.OrderGuestCard > .CardHeader > .menu {
+    position: absolute;
+    height: 16px;
+    right: 10px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.OrderGuestCard > .CardContent > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.OrderGuestCard > .CardContent .Item {
+    height: 107px;
+    position: relative;
+    border-top: 1px solid #F5F6F7;
+}
+
+.OrderGuestCard > .CardContent .Item.Active {
+    height: 107px;
+    background-color: #F9F9F9;
+}
+
+.OrderGuestCard > .CardContent .Item > div {
+    float: left;
+}
+
+.OrderGuestCard > .CardContent .Item > .userHeader > img {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 11px;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderInfo > .userName {
+    font-size: 12px;
+    color: #59626A;
+    margin-top: 25px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderInfo > .checkLocation {
+    font-size: 14px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderInfo > .checkTime {
+    font-size: 14px;
+    margin-top: 9px;
+    text-transform: capitalize;
+    color: #8A8F9C;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderNum {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    font-size: 12px;
+    color: #8A8F9C;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderNum > p {
+    margin: 0px;
+}
+
+.OrderGuestCard > .CardContent .Item > .orderNum .tag {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3CB371;
+}
